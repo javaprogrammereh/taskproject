@@ -1,6 +1,9 @@
-A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them. Search engines like Google read this file to crawl your site more efficiently. A sitemap tells Google which pages and files you think are important in your site, and also provides valuable information about these files. For example, when the page was last updated and any alternate language versions of the page.
-You can use a sitemap to provide information about specific types of content on your pages, including video, image, and news content. For example:
-
-A sitemap video entry can specify the video running time, rating, and age-appropriateness rating.
-A sitemap image entry can include the location of the images included in a page.
-A sitemap news entry can include the article title and publication date
+تسک اول کار با sitemap : وب سایت با ماهیت محتوا ماننده وبلاگ توسعه پیدا کرده و قرار است با  پکیج بالا سایت مپ را تولید کنید.تولید سایت مپ باید به صورت دینامیک باشد در نظر بگیرید تعداد پست ها زیاد هست . حدود ۴۰۰۰ تا.
+موارد رفع شده در پروژه: پروژه در سه مرحله انجام شد، 
+مرحله اول خروجی در ترمینال و در ریسپانس به صورت xml از صفحات مشخص شده نمایش داده شد.
+مرحله دوم تست کدهای دریافتی با مشخص کردن موارد مورد نیاز از مدلهای تعیین شده شامل لیستهای اسکیما.
+مرحله سوم ساخت فایل شامل موارد تعیین شده به همراه خروجی فایل xml در روت پروژه.
+ارزیابی: نقشه های دیجیتالی به موتورهای جستجو و رباتهای کمک میکنند تا محتوای مهم سایت،صفحات،تعداد صفحات،دفعاتی که بروزرسانی انجام میشود،زمانی که صفحه جدیدی جایگزین صفحه قبلی میشود،صفحات مهم کاربر و با کیفیت بالا را مشخص کنیم. این عمل باعث بالا رفتن بازدیدها و بالا رفتن کیفیت جستجو کاربران میشود.
+رباتهای جستجو به خوبی به سایت شما ایندکس میکنند  و باعث رتبه بندی و الویت بندی مناسب سایت میگردد.
+پکیج اصلی مورد استفاده در پروژه ماژول https://www.npmjs.com/package/sitemap میباشد، که به شکل که از طریق کلاس و متدهای لازم عمل تبدیل رشته ها به فایل xml  را انجام میدهد. برای ساخت فایل در پروژه از ماژول fs استفاده شده است.
+در فایل ایجاد شده میتوان آدرس های مشخص شده و اخرین تاریخ بروزرسانی و دفعات بروزرسانی و اهمیت صفحات و ... را مشخص کرد.
